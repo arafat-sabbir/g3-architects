@@ -1,0 +1,100 @@
+ /* shared style */
+ body {
+     font-family: 'Work Sans', sans-serif;
+ }
+
+ .btn-primary {
+     color: #FFF;
+     font-size: 1.25rem;
+     font-weight: 600;
+     padding: 20px 25px;
+     border-radius: 8px;
+     background: #FF900E;
+     border: none;
+ }
+
+ .description-primary {
+     color: #727272;
+ }
+
+ /* header section start */
+ header {
+     background: rgba(255, 144, 14, 0.10);
+     height: 1322px;
+     padding: 40px 240px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ nav ul {
+     list-style: none;
+     display: flex;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: #424242;
+ }
+
+ nav li {
+     margin-right: 50px;
+     color: #424242;
+     text-align: center;
+     font-size: 1.1rem;
+     font-weight: 500;
+ }
+
+
+
+ .nav-title {
+     color: #131313;
+     font-size: 2.8rem;
+     font-weight: 700;
+ }
+
+ /* banner section start */
+
+ .banner-content {
+    max-width: 800px;
+     margin: 0px auto;
+     text-align: center;
+ }
+
+ .banner-title {
+     color: #131313;
+     font-size: 4rem;
+     font-weight: 700;
+ }
+
+ .banner-description {
+     color: #727272;
+     text-align: center;
+ }
+
+ .banner-img{
+     margin-top: 50px;
+     width:100%;
+ }
+
+ /* media quary section smaller phone */
+ @media screen and (max-width:576px) {
+     nav {
+         flex-direction: column;
+     }
+     header {
+         padding: 20px;
+     }
+ }
+ /* medium device */
+ @media screen and (min-width:576px)  and (max-width:992px) {
+    nav{
+        flex-direction: column;
+    }
+    header {
+        padding: 20px;
+    }
+ }
